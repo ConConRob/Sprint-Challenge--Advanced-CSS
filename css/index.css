@@ -239,10 +239,17 @@ footer {
   .home .space-images img {
     width: 100%;
     margin: 0;
+    padding: 20px;
+    border-radius: 30px;
   }
 }
 .home .visit-planets {
   padding: 15px;
+}
+@media (max-width: 500px) {
+  .home .visit-planets {
+    padding-bottom: 0;
+  }
 }
 .home .visit-planets h3 {
   margin-top: 11px;
@@ -261,6 +268,7 @@ footer {
   .home .walk {
     flex-direction: column;
     padding: 30px;
+    margin-top: 30px;
   }
 }
 .home .walk .walk-text {
