@@ -1,7 +1,10 @@
 // Navigation code here
 header.nav {
-    background-color: @nav-bg;
+    background-color: fadeout(@nav-bg, 10%);
     padding-top: 10px;
+    position: sticky;
+    top: 0;
+     
     .flex-me(column,);
     align-items: center;
     border-bottom: 1px solid @nav-border;
