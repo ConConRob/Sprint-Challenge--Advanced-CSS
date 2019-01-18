@@ -4,6 +4,11 @@
     flex-direction: @direction;
     justify-content: @justify;
 }
+.mobilewidth() {
+    @media @mobile {
+        width: 100%;
+    }
+}
 .button-med(@col:@porcelain; @bg-col: @nav-bg) {
     color: @col;
     background-color: @bg-col;
