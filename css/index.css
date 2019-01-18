@@ -356,8 +356,11 @@ footer {
 .home .walk .walk-text form:hover {
   display: block;
 }
+.home .walk .walk-text form .btn {
+  width: 100%;
+}
 .home .walk .walk-text form input {
-  width: 90%;
+  width: 100%;
   padding: 5px 10px;
   margin: 5px 0;
   font-size: 1.6rem;

@@ -96,21 +96,25 @@
       .btn {
         .button-med(@porcelain, @btn-bg-color);
         .mobilewidth();
-        &:hover~form{
+        &:hover~form{//make sign up form show up
           display: block;
         }
         @media @phone {
           padding: (@padding-lg)-5px 0;
         }
       }
+      
       form{
         display: none;
         width:100%;
-        &:hover {
+        &:hover {//when it has shown up it wont go away while being hovered
           display: block;
         }
+        .btn {
+          width: 100%;
+        }
         input {
-          width: 90%;
+          width: 100%;
           padding: 5px 10px;
           margin: 5px 0;
           font-size: 1.6rem;
