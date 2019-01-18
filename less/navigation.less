@@ -1,1 +1,30 @@
 // Navigation code here
+header.nav {
+    background-color: darken(fadeout(@nav-bg, 10%),5%);
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+     
+    .flex-me(column,);
+    align-items: center;
+    border-bottom: 1px solid @nav-border;
+    nav {
+        width:29%;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 10px; 
+        .flex-me();
+        @media @phone {
+            width: 80%;
+        }
+        a {
+            font-size: 1.6rem;
+            text-decoration: none;
+            color: @nav-font;
+            &:hover {
+                text-decoration: underline;
+                color: darken(@nav-font, 70%);
+            }
+        }
+    }
+}

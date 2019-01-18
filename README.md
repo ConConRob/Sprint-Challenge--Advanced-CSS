@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    An adaptive website uses media queries to change the css of the website depending on the size of the screen.
+    A responsize website uses relative units to change the size of elements depending on the size of the screen.
+    A fully responsize website uses media queries to change the layout of the site aswell as relative units.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means that the mobile website is developed first then min-width media queries are added to change the layout of the site for larger screens.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+"font-size: 62.5%" makes the rem unit base 10.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+It is CSS with steroids! CSS is still the same in it but it has a few extra features that allows you to build cleaner and more complicated code.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Nesting is my favorite concept because it cleans up the code so much and helps keep my css organized. It also allows for nested media queries which are the bomb!
+Mixins give me the most trouple. I find myself making ones that arent that useful or not making ones that would have been really usefull. It is just a matter of experience to know when to use them and when not to.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
