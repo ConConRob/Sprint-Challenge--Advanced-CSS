@@ -164,10 +164,13 @@ p {
   margin: 0 auto;
 }
 header.nav {
+  background-color: #F6F6F6;
   padding-top: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #F1F1F1;
 }
 header.nav nav {
   width: 29%;
@@ -175,11 +178,13 @@ header.nav nav {
   padding-top: 20px;
   padding-bottom: 10px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 header.nav nav a {
   font-size: 1.6rem;
   text-decoration: none;
+  color: #454A59;
 }
 footer {
   color: #22283B;
